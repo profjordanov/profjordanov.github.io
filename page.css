@@ -39,7 +39,7 @@
  /* Third image (Contact) */
  
  .bgimg-3 {
-     background-image: url("/w3images/parallax3.jpg");
+     background-image: url("images/contact.jpg");
      min-height: 400px;
  }
  
