@@ -3,20 +3,29 @@
 
 <head>
     <title>About Me</title>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
     <!-- Meta tags section -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Mr.Jordanov Personal Web Page">
     <meta name="author" content="Yordan Yordanov">
-    <!-- Google Analytics -->
-    <script src="scripts/analytics.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119896407-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-119896407-1');
+    </script>
     <!-- Styles section -->
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="styles/page.css">
 </head>
 
 <body>
@@ -27,7 +36,8 @@
                 title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
                 </a>
-                <a href="#home" class="w3-bar-item w3-button">HOME</a>
+                <a href="#home" class="w3-bar-item w3-button">
+                    <i class="fa fa-home"></i> HOME</a>
                 <a href="#about" class="w3-bar-item w3-button w3-hide-small">
                     <i class="fa fa-user"></i> ABOUT</a>
                 <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small">
@@ -228,7 +238,7 @@
             <br>IT Competitions
         </div>
         <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">8+</span>
+            <span class="w3-xlarge">10+</span>
             <br> Certificates
         </div>
     </div>
@@ -311,7 +321,8 @@
                     <br>
                     <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515
                     <br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: jordanov.jordan@ue-varna.bg
+                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: 
+                    <a href="mailto:jordanov.jordan@ue-varna.bg" target="_top">jordanov.jordan@ue-varna.bg</a>
                     <br>
                 </div>
                 <p>Swing by for a cup of
@@ -339,12 +350,14 @@
             <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
         <p>Find me on social media.</p>
         <div class="w3-xlarge w3-section">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            <a href="https://www.facebook.com/dakatheboss" target="_blank">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
             <i class="fa fa-instagram w3-hover-opacity"></i>
             <i class="fa fa-snapchat w3-hover-opacity"></i>
             <i class="fa fa-pinterest-p w3-hover-opacity"></i>
             <i class="fa fa-twitter w3-hover-opacity"></i>
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
+            <a href="https://www.linkedin.com/in/jordan-jordanov-920186148/" target="_blank">
+            <i class="fa fa-linkedin w3-hover-opacity"></i></a>
         </div>
     </footer>
     <!-- Scripts -->
