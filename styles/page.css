@@ -27,19 +27,19 @@
  /* First image (Logo. Full height) */
  
  .bgimg-1 {
-     background-image: url('images/Logo.jpg');
+     background-image: url('../images/Logo.jpg');
      min-height: 100%;
  }
  /* Second image (Portfolio) */
  
  .bgimg-2 {
-     background-image: url("images/code.png");
+     background-image: url("../images/code.png");
      min-height: 400px;
  }
  /* Third image (Contact) */
  
  .bgimg-3 {
-     background-image: url("images/contact.jpg");
+     background-image: url("../images/contact.jpg");
      min-height: 400px;
  }
  
