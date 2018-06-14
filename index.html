@@ -27,8 +27,8 @@
                 title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
                 </a>
-                <a href="#home" class="w3-bar-item w3-button">
-                    <i class="fa fa-home"></i> HOME</a>
+                <a href="#home" class="w3-bar-item w3-button" id="homeElement">
+                    <i class="fa fa-home" id="homeElmItalic"></i> HOME</a>
                 <a href="#about" class="w3-bar-item w3-button w3-hide-small">
                     <i class="fa fa-user"></i> ABOUT</a>
                 <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small">
@@ -40,7 +40,7 @@
         </div>
         <!-- Navbar on small screens -->
         <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-            <a class="w3-bar-item w3-button" onclick="translateToBulgarian()">Bulgarian</a>
+            <a class="w3-bar-item w3-button" id="translateToBulgarian">Bulgarian</a>
             <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">PORTFOLIO</a>
             <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
             <a href="https://github.com/profjordanov" target="_blank" class="w3-bar-item w3-button">GitHub Profile</a>
@@ -50,7 +50,7 @@
     <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
         <div class="w3-display-middle" style="white-space:nowrap;">
             <br><br><br><br>
-            <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Jordan
+            <span id="name-title" class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">Jordan
                 <span class="w3-hide-small">Jordanov</span>
             </span>
         </div>
@@ -61,7 +61,7 @@
         <p class="w3-center">
             <em>I love programming!</em>
         </p>
-        <p>Very ambitious, creative and quick-learning software engineer with leadership skills, programming and architectural
+        <p id="descriptive-paragraph">Very ambitious, creative and quick-learning software engineer with leadership skills, programming and architectural
             skills. I have experience with ASP.NET MVC, NodeJS, PostgreSQL, SQL Server, MongoDB, HTML5, CSS3, Bootstrap,
             JSON, XML and knowledge in application development with .NET platform and MEAN stack. Also understanding of algorithmic
             problems and data structures. Works with precision and a very good team player. Keen on keeping deadlines, has
@@ -356,6 +356,8 @@
     <!-- Scripts -->
     <script src="scripts/page.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/screen.width.controller.js"></script>    
+    <script src="scripts/translate.js"></script>
 </body>
 
 </html>
