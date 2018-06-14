@@ -27,7 +27,7 @@
  /* First image (Logo. Full height) */
  
  .bgimg-1 {
-     background-image: url('../images/Logo.jpg');
+     background-image: url('../images/Logo-2.jpg');
      min-height: 100%;
  }
  /* Second image (Portfolio) */
@@ -58,4 +58,8 @@
      .bgimg-3 {
          background-attachment: scroll;
      }
+ }
+
+ .w3-display-middle{
+     margin-bottom: 40%;
  }
