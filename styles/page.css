@@ -19,9 +19,7 @@
  .bgimg-1,
  .bgimg-2,
  .bgimg-3 {
-     background-attachment: fixed;
-     background-position: center;
-     background-repeat: no-repeat;
+     background: no-repeat fixed center;
      background-size: cover;
  }
  /* First image (Logo. Full height) */
