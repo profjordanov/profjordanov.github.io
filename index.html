@@ -338,12 +338,32 @@
                         </div>
                     </div>
                     <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
-                    <button class="w3-button w3-black w3-right w3-section" type="submit">
+                    <button class="w3-button w3-black w3-right w3-section" id="submitMailBtn">
                         <i class="fa fa-paper-plane"></i> SEND MESSAGE
                     </button>
                 </form>
             </div>
         </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close">&times;</span>
+                <h2>Modal Header</h2>
+            </div>
+            <div class="modal-body">
+                <p>Some text in the Modal Body</p>
+                <p>Some other text...</p>
+            </div>
+            <div class="modal-footer">
+                <h3>Modal Footer</h3>
+            </div>
+        </div>
+
     </div>
     <!-- Footer -->
     <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
@@ -366,6 +386,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="Scripts/screen.width.controller.js"></script>
     <script src="Scripts/translate.js"></script>
+    <script src="Scripts/modal.js"></script>
 </body>
 
 </html>
