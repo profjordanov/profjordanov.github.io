@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles/page.css">
+    <!-- EmailJS integration section -->
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript" src="Scripts/email.js"></script>
 </head>
 
 <body>
@@ -321,20 +324,20 @@
                 </div>
                 <p>Swing by for a
                     <i class="fa fa-beer"></i> drink, or leave me a note:</p>
-                <form>
+                <div>
                     <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
                         <div class="w3-half">
-                            <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+                            <input class="w3-input w3-border" type="text" id="fromNameValue" placeholder="Name" required name="Name">
                         </div>
                         <div class="w3-half">
-                            <input class="w3-input w3-border" type="text" placeholder="Email" required name="Email">
+                            <input class="w3-input w3-border" type="text" id="replyToValue" placeholder="Email" required name="Email">
                         </div>
                     </div>
-                    <input class="w3-input w3-border" type="text" placeholder="Message" required name="Message">
+                    <input class="w3-input w3-border" type="text" id="messageHtmlValue" placeholder="Message" required name="Message">
                     <button class="w3-button w3-black w3-right w3-section" id="submitMailBtn">
                         <i class="fa fa-paper-plane"></i> SEND MESSAGE
                     </button>
-                </form>
+                </div>
             </div>
         </div>
     </div>
