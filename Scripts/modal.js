@@ -20,6 +20,7 @@ $( document ).ready(function() {
     }
   }
 
+  //TODO: ON CHANGE EVENT
   var replyToValue = document.getElementsByName('Email').value;
   var fromNameValue = document.getElementsByName('Name').value;
   var messageHtmlValue = document.getElementsByName('Message').value;
