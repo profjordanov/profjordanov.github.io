@@ -20,34 +20,33 @@ $( document ).ready(function() {
     }
   }
 
-  //TODO: ON CHANGE EVENT
-  var replyToValue = document.getElementsByName('Email').value;
-  var fromNameValue = document.getElementsByName('Name').value;
-  var messageHtmlValue = document.getElementsByName('Message').value;
-
-  var serviceId = "myGmailService";
-  var templateId = "template_6BkEijYR";
-  var userId = "user_8yK59napehDiYt2SEfsf6";
-
-  var data = {
-    service_id: serviceId,
-    template_id: templateId,
-    user_id: userId,
-    template_params: {
-      "reply_to": $`replyToValue`,
-      "from_name": $`fromNameValue`,
-      "message_html": $`messageHtmlValue`
-    }
-  };
-
   $("#submitMailBtn").click(function () {
+    var replyToValue = $( "#replyTo" ).val();
+    var fromNameValue = $( "#fromName" ).val();
+    var messageHtmlValue = $( "#messageHtml" ).val();
+
+    var serviceId = "myGmailService";
+    var templateId = "template_6BkEijYR";
+    var userId = "user_8yK59napehDiYt2SEfsf6";
+
+    var data = {
+      service_id: serviceId,
+      template_id: templateId,
+      user_id: userId,
+      template_params: {
+        "reply_to": `${replyToValue}`,
+        "from_name": `${fromNameValue}`,
+        "message_html": `${messageHtmlValue}`
+      }
+    };
+
     console.table(data);
     $.ajax('https://api.emailjs.com/api/v1.0/email/send', {
       type: 'POST',
       data: JSON.stringify(data),
       contentType: 'application/json'
     }).done(function () {
-      alert('Your mail is sent!');
+    modal.style.display='block';
     }).fail(function (error) {
       alert('Oops... ' + JSON.stringify(error));
     });
