@@ -3,7 +3,7 @@
 
 <head>
     <title>About Me</title>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.ico" />
+    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
     <!-- Meta tags section -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,372 +22,398 @@
 </head>
 
 <body>
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-        <div class="w3-bar" id="myNavbar">
-            <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()"
-                title="Toggle Navigation Menu">
-                <i class="fa fa-bars"></i>
-            </a>
-            <a href="#home" class="w3-bar-item w3-button" id="homeElement">
-                <i class="fa fa-home" id="homeElmItalic"></i> HOME</a>
-            <a href="#about" class="w3-bar-item w3-button w3-hide-small">
-                <i class="fa fa-user"></i> ABOUT</a>
-            <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small">
-                <i class="fa fa-th"></i> PORTFOLIO</a>
-            <a href="#contact" class="w3-bar-item w3-button w3-hide-small">
-                <i class="fa fa-envelope"></i> CONTACT</a>
-            <a href="./documents/YordanYordanovResume.pdf" class="w3-bar-item w3-button w3-hide-small">
-                <i class="fa fa-file"></i> CV</a>
-            <a href="https://github.com/profjordanov" target="_blank" class="w3-bar-item w3-button w3-hide-small">
-                <img src="images/GitHub-Mark.png" alt="GitHub-icon" height="20" width="20"> GitHub</a>
-        </div>
-        <!-- Navbar on small screens -->
-        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-            <a class="w3-bar-item w3-button" id="translateToEnglish" onclick="location.reload();">English</a>
-            <a class="w3-bar-item w3-button" id="translateToBulgarian">Bulgarian</a>
-        </div>
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
+           onclick="toggleFunction()"
+           title="Toggle Navigation Menu">
+            <i class="fa fa-bars"></i>
+        </a>
+        <a href="#home" class="w3-bar-item w3-button" id="homeElement">
+            <i class="fa fa-home" id="homeElmItalic"></i> HOME</a>
+        <a href="#about" class="w3-bar-item w3-button w3-hide-small">
+            <i class="fa fa-user"></i> ABOUT</a>
+        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small">
+            <i class="fa fa-th"></i> PORTFOLIO</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-hide-small">
+            <i class="fa fa-envelope"></i> CONTACT</a>
+        <a href="./documents/YordanYordanovResume.pdf" class="w3-bar-item w3-button w3-hide-small">
+            <i class="fa fa-file"></i> CV</a>
+        <a href="https://github.com/profjordanov" target="_blank" class="w3-bar-item w3-button w3-hide-small">
+            <img src="images/GitHub-Mark.png" alt="GitHub-icon" height="20" width="20"> GitHub</a>
     </div>
-    <!-- First Parallax Image with Logo Text -->
-    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-        <div class="w3-display-middle" style="white-space:nowrap;">
-            <br>
-            <br>
-            <br>
-            <br>
-            <span id="name-title" class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+        <a class="w3-bar-item w3-button" id="translateToEnglish" onclick="location.reload()">English</a>
+        <a class="w3-bar-item w3-button" id="translateToBulgarian">Bulgarian</a>
+    </div>
+</div>
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+    <div class="w3-display-middle" style="white-space:nowrap;">
+        <br>
+        <br>
+        <br>
+        <br>
+        <span id="name-title" class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
 			WELCOME
             </span>
+    </div>
+</div>
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+    <h3 class="w3-center">ABOUT ME</h3>
+    <p class="w3-center">
+        <em>I love programming!</em>
+    </p>
+    <p id="descriptive-paragraph">Very ambitious, creative and quick-learning software engineer with leadership skills,
+        programming and architectural
+        skills. I have experience with ASP.NET MVC, NodeJS, PostgreSQL, SQL Server, MongoDB, HTML5, CSS3, Bootstrap,
+        JSON, XML and knowledge in application development with .NET platform and MEAN stack. Also understanding of
+        algorithmic
+        problems and data structures. Works with precision and a very good team player. Keen on keeping deadlines, has
+        all his projects completed on time.</p>
+    <div class="w3-row">
+        <div class="w3-col m6 w3-center w3-padding-large">
+            <p>
+                <b>
+                    <i class="fa fa-user w3-margin-right"></i>Yordan Ivanov Yordanov</b>
+            </p>
+            <br>
+            <img src="images/avatar.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
+                 width="500" height="333">
+        </div>
+        <!-- Hide this text on small devices -->
+        <div class="w3-col m6 w3-hide-small w3-padding-large">
+            <p>
+                <b>
+                    <i class="fa fa-at w3-margin-right"></i>Software Technologies</b>
+            </p>
+            <br>
+            <p>Web programming with ASP.NET stack - ASP.NET MVC 5 & ASP.NET Core, ASP.NET WebAPI, Razor, ASP.NET
+                WebForms,
+                SignalR, Nhibernate, Entity Framework, LINQ, ADO.NET, SQL Server, AutoMapper, Ninject;
+            <p>
+            <p>Microsoft Azure</p>
+            <p>Web programming with NodeJS - NodeJS, ExpressJS, MongoDB;</p>
+            <p>Web sites and client-side scripting – HTML5, CSS3, JavaScript, AJAX, jQuery, AngularJS, HandlebarsJS,
+                KnockoutJS;</p>
+            <p>Databases – PostgreSQL, MSSQL, MySQL, MongoDB;</p>
+            <p>Object-oriented programming and modeling (design patterns and SOLID);</p>
+            <br>
+            <p>
+                <b>Other Computer Skills</b>
+            </p>
+            <br>
+            <p>Source control systems – Git (GitHub), TFS, SVN;</p>
+            <p>Continuous Integration with Jenkins</p>
+            <p>Video and audio editing skills;</p>
+            <p>Excellent skills with Microsoft Word, Microsoft Excel and Microsoft PowerPoint; </p>
         </div>
     </div>
-    <!-- Container (About Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="about">
-        <h3 class="w3-center">ABOUT ME</h3>
-        <p class="w3-center">
-            <em>I love programming!</em>
-        </p>
-        <p id="descriptive-paragraph">Very ambitious, creative and quick-learning software engineer with leadership skills, programming and architectural
-            skills. I have experience with ASP.NET MVC, NodeJS, PostgreSQL, SQL Server, MongoDB, HTML5, CSS3, Bootstrap,
-            JSON, XML and knowledge in application development with .NET platform and MEAN stack. Also understanding of algorithmic
-            problems and data structures. Works with precision and a very good team player. Keen on keeping deadlines, has
-            all his projects completed on time.</p>
-        <div class="w3-row">
-            <div class="w3-col m6 w3-center w3-padding-large">
-                <p>
-                    <b>
-                        <i class="fa fa-user w3-margin-right"></i>Yordan Ivanov Yordanov</b>
-                </p>
-                <br>
-                <img src="images/avatar.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me" width="500" height="333">
-            </div>
-            <!-- Hide this text on small devices -->
-            <div class="w3-col m6 w3-hide-small w3-padding-large">
-                <p>
-                    <b>
-                        <i class="fa fa-at w3-margin-right"></i>Software Technologies</b>
-                </p>
-                <br>
-                <p>Web programming with ASP.NET stack - ASP.NET MVC 5 & ASP.NET Core, ASP.NET WebAPI, Razor, ASP.NET WebForms,
-                    SignalR, Nhibernate, Entity Framework, LINQ, ADO.NET, SQL Server, AutoMapper, Ninject;
-                    <p>
-                        <p>Microsoft Azure</p>
-                        <p>Web programming with NodeJS - NodeJS, ExpressJS, MongoDB;</p>
-                        <p>Web sites and client-side scripting – HTML5, CSS3, JavaScript, AJAX, jQuery, AngularJS, HandlebarsJS, KnockoutJS;</p>
-                        <p>Databases – PostgreSQL, MSSQL, MySQL, MongoDB;</p>
-                        <p>Object-oriented programming and modeling (design patterns and SOLID);</p>
-                        <br>
-                        <p>
-                            <b>Other Computer Skills</b>
-                        </p>
-                        <br>
-                        <p>Source control systems – Git (GitHub), TFS, SVN;</p>
-                        <p>Continuous Integration with Jenkins</p>
-                        <p>Video and audio editing skills;</p>
-                        <p>Excellent skills with Microsoft Word, Microsoft Excel and Microsoft PowerPoint; </p>
-            </div>
-        </div>
-    </div>
+</div>
 
-    <body class="w3-light-grey">
-        <!-- Page Container -->
-        <div class="w3-content w3-margin-top" style="max-width:1400px;">
-            <!-- The Grid -->
-            <div class="w3-row-padding">
-                <!-- Left Column -->
-                <div class="w3-third">
-                    <div class="w3-white w3-text-grey w3-card-4">
-                        <div class="w3-container">
-                            <p class="w3-large">
-                                <b>
-                                    <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
-                            </p>
-                            <p>.NET Framework / .NET Core</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
-                            </div>
-                            <p>JavaScript Frameworks</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">
-                                    <div class="w3-center w3-text-white">50%</div>
-                                </div>
-                            </div>
-                            <p>HTML & CSS</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:45%">45%</div>
-                            </div>
-                            <p>SQL</p>
-                            <div class="w3-light-grey w3-round-xlarge w3-small">
-                                <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
-                            </div>
-                            <br>
-                            <p class="w3-large w3-text-theme">
-                                <b>
-                                    <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b>
-                            </p>
-                            <p>Bulgarian</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-                            </div>
-                            <p>English</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:75%"></div>
-                            </div>
-                            <p>Russian</p>
-                            <div class="w3-light-grey w3-round-xlarge">
-                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-                            </div>
-                            <br>
+<body class="w3-light-grey">
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <!-- The Grid -->
+    <div class="w3-row-padding">
+        <!-- Left Column -->
+        <div class="w3-third">
+            <div class="w3-white w3-text-grey w3-card-4">
+                <div class="w3-container">
+                    <p class="w3-large">
+                        <b>
+                            <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
+                    </p>
+                    <p>.NET Framework / .NET Core</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
+                    </div>
+                    <p>JavaScript Frameworks</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">
+                            <div class="w3-center w3-text-white">50%</div>
                         </div>
+                    </div>
+                    <p>HTML & CSS</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:45%">45%</div>
+                    </div>
+                    <p>SQL</p>
+                    <div class="w3-light-grey w3-round-xlarge w3-small">
+                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
                     </div>
                     <br>
-                    <!-- End Left Column -->
+                    <p class="w3-large w3-text-theme">
+                        <b>
+                            <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b>
+                    </p>
+                    <p>Bulgarian</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+                    </div>
+                    <p>English</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:75%"></div>
+                    </div>
+                    <p>Russian</p>
+                    <div class="w3-light-grey w3-round-xlarge">
+                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
+                    </div>
+                    <br>
                 </div>
-                <!-- Right Column -->
-                <div class="w3-twothird">
-                    <div class="w3-container w3-card w3-white w3-margin-bottom">
-                        <h2 class="w3-text-grey w3-padding-16">
-                            <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-                        <div class="w3-container">
-                            <h5 class="w3-opacity">
-                                <b>Full Stack .NET Web Developer in</b>
-                            </h5>
-                            <img src="images/immedis-logo.png" alt="immedis-logo" width="200" height="100">
-                            <h6 class="w3-text-teal">
-                                <h6 class="w3-text-teal">
-                                    <i class="fa fa-calendar fa-fw w3-margin-right"></i>NOV 2017 -
-                                    <span class="w3-tag w3-teal w3-round">Current</span>
-                                </h6>
-                                <hr>
+            </div>
+            <br>
+            <!-- End Left Column -->
+        </div>
+        <!-- Right Column -->
+        <div class="w3-twothird">
+            <div class="w3-container w3-card w3-white w3-margin-bottom">
+                <h2 class="w3-text-grey w3-padding-16">
+                    <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
+                <div class="w3-container">
+                    <h5 class="w3-opacity">
+                        <b>Full Stack .NET Web Developer in</b>
+                    </h5>
+                    <img src="images/immedis-logo.png" alt="immedis-logo" width="200" height="100">
+                    <h6 class="w3-text-teal">
+                        <h6 class="w3-text-teal">
+                            <i class="fa fa-calendar fa-fw w3-margin-right"></i>NOV 2017 -
+                            <span class="w3-tag w3-teal w3-round">Current</span>
+                        </h6>
+                        <hr>
 
-                                <h5 class="w3-opacity">
-                                    <b>Web Developer in </b>
-                                </h5>
-                                <img src="images/societe-generale-ekspresbank-logo.png" alt="societe-generale-ekspresbank-logo" width="200" height="50">
-                                <h6 class="w3-text-teal">
-                                    <h6 class="w3-text-teal">
-                                        <i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2017 - Sep 2017</h6>
-                                    <hr>
-                                </h6>
-                        </div>
-                    </div>
-                    <div class="w3-container w3-card w3-white">
-                        <h2 class="w3-text-grey w3-padding-16">
-                            <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-                        <div class="w3-container">
-                            <img src="images/ue-logo.png" alt="UE-Logo" width="100" height="100">
-                            <h5 class="w3-opacity">
-                                <b>University of Economics - Varna</b>
-                            </h5>
+                        <h5 class="w3-opacity">
+                            <b>Web Developer in </b>
+                        </h5>
+                        <img src="images/societe-generale-ekspresbank-logo.png" alt="societe-generale-ekspresbank-logo"
+                             width="200" height="50">
+                        <h6 class="w3-text-teal">
                             <h6 class="w3-text-teal">
-                                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
-                            <p>Bachelor Degree in Computer Science</p>
+                                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2017 - Sep 2017</h6>
                             <hr>
-                        </div>
-                        <div class="w3-container">
-                            <img src="images/softuni-logo.jpg" alt="SoftUni-Logo" width="100" height="100">
-                            <h5 class="w3-opacity">
-                                <b>Software University</b>
-                            </h5>
-                            <h6 class="w3-text-teal">
-                                <i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2019</h6>
-                            <p>JavaScript Developer</p>
-                            <br>
-                        </div>
-                    </div>
-                    <!-- End Right Column -->
+                        </h6>
                 </div>
-                <!-- End Grid -->
             </div>
-            <!-- End Page Container -->
+            <div class="w3-container w3-card w3-white">
+                <h2 class="w3-text-grey w3-padding-16">
+                    <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
+                <div class="w3-container">
+                    <img src="images/ue-logo.png" alt="UE-Logo" width="100" height="100">
+                    <h5 class="w3-opacity">
+                        <b>University of Economics - Varna</b>
+                    </h5>
+                    <h6 class="w3-text-teal">
+                        <i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
+                    <p>Bachelor Degree in Computer Science</p>
+                    <hr>
+                </div>
+                <div class="w3-container">
+                    <img src="images/softuni-logo.jpg" alt="SoftUni-Logo" width="100" height="100">
+                    <h5 class="w3-opacity">
+                        <b>Software University</b>
+                    </h5>
+                    <h6 class="w3-text-teal">
+                        <i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2019</h6>
+                    <p>JavaScript Developer</p>
+                    <br>
+                </div>
+            </div>
+            <!-- End Right Column -->
         </div>
-    </body>
-    <div class="w3-row w3-center w3-dark-grey w3-padding-16">
-        <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">1000%</span>
-            <br>Team Player
+        <!-- End Grid -->
+    </div>
+    <!-- End Page Container -->
+</div>
+</body>
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1000%</span>
+        <br>Team Player
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">20+</span>
+        <br> Projects Done
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">8+</span>
+        <br>IT Competitions
+    </div>
+    <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10+</span>
+        <br> Certificates
+    </div>
+</div>
+<!-- Second Parallax Image with Portfolio Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    </div>
+</div>
+<!-- Container (Portfolio Section) -->
+<div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center">MY WORK</h3>
+    <p class="w3-center">
+        <em>Here are some of my projects.
+            <br> Click on the images to make them bigger. Тhe technologies used are written down below.</em>
+    </p>
+    <br>
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+        <div class="w3-col m3">
+            <img src="images/asp-net-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                 alt="Message Board (ASP.NET, WEB API, AngularJS, EF)">
         </div>
-        <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">20+</span>
-            <br> Projects Done
+        <div class="w3-col m3">
+            <img src="images/win-forms-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                 alt="Admin For 'Aqua Hotel' (Windows Forms)">
         </div>
-        <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">8+</span>
-            <br>IT Competitions
+        <div class="w3-col m3">
+            <img src="images/node-js-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                 alt="Computer Shop (NodeJS,MongoDB,HandlebarsJS) ">
         </div>
-        <div class="w3-quarter w3-section">
-            <span class="w3-xlarge">10+</span>
-            <br> Certificates
+        <div class="w3-col m3">
+            <img src="images/mono-game.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                 alt="Monster World (MonoGame,C#,EF,MSSQL)">
         </div>
     </div>
-    <!-- Second Parallax Image with Portfolio Text -->
-    <div class="bgimg-2 w3-display-container w3-opacity-min">
-        <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
+    <div class="w3-row-padding w3-center w3-section">
+        <div class="w3-col m3">
+            <img src="images/node-js-2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                 alt="Doner Place (NodeJS,MongoDB,HandlebarsJS)">
         </div>
+        <div class="w3-col m3">
+            <img src="images/win-forms-2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                 alt="Storage program (Windows Forms)">
+        </div>
+        <div class="w3-col m3">
+            <img src="images/js-php-mysql.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                 alt="University Blog (PHP-MySQL-JavaScript for Front-End)">
+        </div>
+        <div class="w3-col m3">
+            <img src="images/custom-mvc.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
+                 alt="Game Store with custom web server & MVC (C#,MSSQL,Bootstrap 4)">
+        </div>
+        <button onclick="location.href='https://github.com/profjordanov?tab=repositories'"
+                class="w3-button w3-padding-large w3-light-grey"
+                style="margin-top:64px">Source Code
+        </button>
     </div>
-    <!-- Container (Portfolio Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="portfolio">
-        <h3 class="w3-center">MY WORK</h3>
-        <p class="w3-center">
-            <em>Here are some of my projects.
-                <br> Click on the images to make them bigger. Тhe technologies used are written down below.</em>
-        </p>
-        <br>
-        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-        <div class="w3-row-padding w3-center">
-            <div class="w3-col m3">
-                <img src="images/asp-net-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Message Board (ASP.NET, WEB API, AngularJS, EF)">
-            </div>
-            <div class="w3-col m3">
-                <img src="images/win-forms-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Admin For 'Aqua Hotel' (Windows Forms)">
-            </div>
-            <div class="w3-col m3">
-                <img src="images/node-js-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Computer Shop (NodeJS,MongoDB,HandlebarsJS) ">
-            </div>
-            <div class="w3-col m3">
-                <img src="images/mono-game.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Monster World (MonoGame,C#,EF,MSSQL)">
-            </div>
-        </div>
-        <div class="w3-row-padding w3-center w3-section">
-            <div class="w3-col m3">
-                <img src="images/node-js-2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Doner Place (NodeJS,MongoDB,HandlebarsJS)">
-            </div>
-            <div class="w3-col m3">
-                <img src="images/win-forms-2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Storage program (Windows Forms)">
-            </div>
-            <div class="w3-col m3">
-                <img src="images/js-php-mysql.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="University Blog (PHP-MySQL-JavaScript for Front-End)">
-            </div>
-            <div class="w3-col m3">
-                <img src="images/custom-mvc.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Game Store with custom web server & MVC (C#,MSSQL,Bootstrap 4)">
-            </div>
-            <button onclick="location.href='https://github.com/profjordanov?tab=repositories'" class="w3-button w3-padding-large w3-light-grey"
-                style="margin-top:64px">Source Code</button>
-        </div>
-    </div>
-    <!-- Modal for full size images on click-->
-    <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+</div>
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
         <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image">
             <i class="fa fa-remove"></i>
         </span>
-        <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-            <img id="img01" class="w3-image">
-            <p id="caption" class="w3-opacity w3-large"></p>
-        </div>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+        <img id="img01" class="w3-image">
+        <p id="caption" class="w3-opacity w3-large"></p>
     </div>
-    <!-- Third Parallax Image with Portfolio Text -->
-    <div class="bgimg-3 w3-display-container w3-opacity-min">
-        <div class="w3-display-middle">
-            <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-        </div>
+</div>
+<!-- Third Parallax Image with Portfolio Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+    <div class="w3-display-middle">
+        <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
     </div>
-    <!-- Container (Contact Section) -->
-    <div class="w3-content w3-container w3-padding-64" id="contact">
-        <h3 class="w3-center">WHERE I WORK</h3>
-        <p class="w3-center">
-            <em>I'd love your feedback!</em>
-        </p>
-        <div class="w3-row w3-padding-32 w3-section">
-            <div class="w3-col m4 w3-container">
-                <!-- Add Google Maps -->
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93062.93306214365!2d27.872869151033672!3d43.204944866058234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4538baaf3d7a1%3A0x5727941c71a58b7c!2z0JLQsNGA0L3QsA!5e0!3m2!1sbg!2sbg!4v1525096928166"
-                    frameborder="0" id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;" allowfullscreen></iframe>
+</div>
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+    <h3 class="w3-center">WHERE I WORK</h3>
+    <p class="w3-center">
+        <em>I'd love your feedback!</em>
+    </p>
+    <div class="w3-row w3-padding-32 w3-section">
+        <div class="w3-col m4 w3-container">
+            <!-- Add Google Maps -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93062.93306214365!2d27.872869151033672!3d43.204944866058234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4538baaf3d7a1%3A0x5727941c71a58b7c!2z0JLQsNGA0L3QsA!5e0!3m2!1sbg!2sbg!4v1525096928166"
+                    frameborder="0" id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"
+                    allowfullscreen></iframe>
+        </div>
+        <div class="w3-col m8 w3-panel">
+            <div class="w3-large w3-margin-bottom">
+                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Varna, Bulgaria
+                <br>
+                <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515
+                <br>
+                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
+                <a href="mailto:jordanov.jordan@ue-varna.bg" target="_top">jordanov.jordan@ue-varna.bg</a>
+                <br>
             </div>
-            <div class="w3-col m8 w3-panel">
-                <div class="w3-large w3-margin-bottom">
-                    <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Varna, Bulgaria
-                    <br>
-                    <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515
-                    <br>
-                    <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
-                    <a href="mailto:jordanov.jordan@ue-varna.bg" target="_top">jordanov.jordan@ue-varna.bg</a>
-                    <br>
-                </div>
-                <p>Swing by for a
-                    <i class="fa fa-beer"></i> drink, or leave me a note:</p>
-                <div>
-                    <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                        <div class="w3-half">
-                            <input class="w3-input w3-border" type="text" id="fromName" placeholder="Name" required name="Name">
-                        </div>
-                        <div class="w3-half">
-                            <input class="w3-input w3-border" type="text" id="replyTo" placeholder="Email" required name="Email">
-                        </div>
-                    </div>
-                    <input class="w3-input w3-border" type="text" id="messageHtml" placeholder="Message" required name="Message">
-                    <button class="w3-button w3-black w3-right w3-section" id="submitMailBtn">
-                        <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                    </button>
-                </div>
-            </div>
+            <p>Swing by for a
+                <i class="fa fa-beer"></i> drink, or leave me a note:</p>
             <div>
-                <a href="documents/YordanYordanovResume.pdf"><button>My CV</button></a>
+                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                    <div class="w3-half">
+                        <input class="w3-input w3-border" type="text" id="fromName" placeholder="Name" required
+                               name="Name">
+                    </div>
+                    <div class="w3-half">
+                        <input class="w3-input w3-border" type="text" id="replyTo" placeholder="Email" required
+                               name="Email">
+                    </div>
+
+                </div>
+                <input class="w3-input w3-border" type="text" id="messageHtml" placeholder="Message" required
+                       name="Message">
+                <div class="w3-half">
+                    <a href="./documents/YordanYordanovResume.pdf"
+                       class="w3-button w3-black w3-section">
+                        <i class="fa fa-file"></i> MY CV
+                    </a>
+                </div>
+                <button class="w3-button w3-black w3-right w3-section" id="submitMailBtn">
+                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
+                </button>
+
             </div>
         </div>
     </div>
+</div>
 
-    <!-- The Modal -->
-    <div id="myModal" class="modal">
+<!-- The Modal -->
+<div id="myModal" class="modal">
 
-        <!-- Modal content -->
-        <div class="modal-content">
-            <div class="modal-header">
-                <span class="close">&times;</span>
-                <h5>Thank you! :)</h5>
-            </div>
-            <div class="modal-body">
-                <p>Your message was sent successfully!</p>
-                <p>I will answer you as soon as possible!</p>
-            </div>
-            <div class="modal-footer">
-            </div>
+    <!-- Modal content -->
+    <div class="modal-content">
+        <div class="modal-header">
+            <span class="close">&times;</span>
+            <h5>Thank you! :)</h5>
         </div>
-
+        <div class="modal-body">
+            <p>Your message was sent successfully!</p>
+            <p>I will answer you as soon as possible!</p>
+        </div>
+        <div class="modal-footer">
+        </div>
     </div>
-    <!-- Footer -->
-    <footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-        <a href="#home" class="w3-button w3-light-grey">
-            <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-        <p>Find me on social media.</p>
-        <div class="w3-xlarge w3-section">
-            <a href="https://www.facebook.com/dakatheboss" target="_blank">
-                <i class="fa fa-facebook-official w3-hover-opacity"></i>
-            </a>
-            <i class="fa fa-instagram w3-hover-opacity"></i>
-            <i class="fa fa-snapchat w3-hover-opacity"></i>
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-            <i class="fa fa-twitter w3-hover-opacity"></i>
-            <a href="https://www.linkedin.com/in/jordan-jordanov-920186148/" target="_blank">
-                <i class="fa fa-linkedin w3-hover-opacity"></i>
-            </a>
-        </div>
-    </footer>
-    <!-- Scripts -->
-    <script src="Scripts/page.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="Scripts/screen.width.controller.js"></script>
-    <script src="Scripts/translate.js"></script>
-    <script src="Scripts/modal.js"></script>
+
+</div>
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
+    <a href="#home" class="w3-button w3-light-grey">
+        <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+    <p>Find me on social media.</p>
+    <div class="w3-xlarge w3-section">
+        <a href="https://www.facebook.com/dakatheboss" target="_blank">
+            <i class="fa fa-facebook-official w3-hover-opacity"></i>
+        </a>
+        <i class="fa fa-instagram w3-hover-opacity"></i>
+        <i class="fa fa-snapchat w3-hover-opacity"></i>
+        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+        <i class="fa fa-twitter w3-hover-opacity"></i>
+        <a href="https://www.linkedin.com/in/jordan-jordanov-920186148/" target="_blank">
+            <i class="fa fa-linkedin w3-hover-opacity"></i>
+        </a>
+    </div>
+</footer>
+<!-- Scripts -->
+<script src="Scripts/page.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="Scripts/screen.width.controller.js"></script>
+<script src="Scripts/translate.js"></script>
+<script src="Scripts/modal.js"></script>
 </body>
 
 </html>
