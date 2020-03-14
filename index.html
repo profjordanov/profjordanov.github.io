@@ -1,420 +1,776 @@
-<!DOCTYPE html>
-<html>
+<html lang="zxx" class="js csstransitions gr__inventheme_com">
 
 <head>
-    <title>About Me</title>
-    <link rel="shortcut icon" type="image/png" href="images/favicon.ico"/>
-    <!-- Meta tags section -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Mr.Jordanov Personal Web Page">
-    <meta name="author" content="Yordan Yordanov">
-    <meta name="keywords" content="developer,  programming enthusiast, quick learner, dotnet framework guru, microsoft most valuable professional">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>JJ Personal Page</title>
+    <meta name="keywords" content="developer,  programming enthusiast, quick learner, dotnet core">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119896407-1"></script>
-    <script src="Scripts/analytics.js"></script>
-    <!-- Styles section -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/page.css">
-    <!-- EmailJS integration section -->
-    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="static/js/analytics.js"></script>
+    <!-- / -->
+
+    <!---Font Icon-->
+    <link href="static/plugin/font-awesome/css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="static/plugin/themify-icons/themify-icons.css" rel="stylesheet">
+    <!-- / -->
+
+    <!-- Plugin CSS -->
+    <link href="static/plugin/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/plugin/owl-carousel/css/owl.carousel.min.css" rel="stylesheet">
+    <link href="static/plugin/magnific/magnific-popup.css" rel="stylesheet">
+    <link href="static/plugin/nav/css/component.css" rel="stylesheet">
+    <!-- / -->
+
+    <!-- Theme Style -->
+
+    <link href="static/css/styles.css" rel="stylesheet">
+    <link href="static/css/color/default.css" rel="stylesheet">
+
+    <script src="static/plugin/nav/js/modernizr-custom.js"></script>
+    <!-- / -->
+
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
+    <!-- / -->
+
+
+    <style id="lbemqe3sanhh2esv7kxhzn">
+        @keyframes blink-lbemqe3sanhh2esv7kxhzn {
+            0% {
+                opacity: 0
+            }
+            49% {
+                opacity: 0
+            }
+            50% {
+                opacity: 1
+            }
+        }
+        
+        [data-typeitid='lbemqe3sanhh2esv7kxhzn'] .ti-cursor {
+            animation: blink-lbemqe3sanhh2esv7kxhzn 1s infinite;
+        }
+    </style>
 </head>
 
-<body>
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-    <div class="w3-bar" id="myNavbar">
-        <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
-           onclick="toggleFunction()"
-           title="Toggle Navigation Menu">
-            <i class="fa fa-bars"></i>
-        </a>
-        <a href="#home" class="w3-bar-item w3-button" id="homeElement">
-            <i class="fa fa-home" id="homeElmItalic"></i> HOME</a>
-        <a href="#about" class="w3-bar-item w3-button w3-hide-small">
-            <i class="fa fa-user"></i> ABOUT</a>
-        <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small">
-            <i class="fa fa-th"></i> PORTFOLIO</a>
-        <a href="#contact" class="w3-bar-item w3-button w3-hide-small">
-            <i class="fa fa-envelope"></i> CONTACT</a>
-        <a href="./documents/YordanYordanovResume.pdf" class="w3-bar-item w3-button w3-hide-small">
-            <i class="fa fa-file"></i> CV</a>
-        <a href="https://github.com/profjordanov" target="_blank" class="w3-bar-item w3-button w3-hide-small">
-            <img src="images/GitHub-Mark.png" alt="GitHub-icon" height="20" width="20"> GitHub</a>
-    </div>
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
-        <a class="w3-bar-item w3-button" id="translateToEnglish" onclick="location.reload()">English</a>
-        <a class="w3-bar-item w3-button" id="translateToBulgarian">Bulgarian</a>
-    </div>
-</div>
-<!-- First Parallax Image with Logo Text -->
-<div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-    <div class="w3-display-middle" style="white-space:nowrap;">
-        <br>
-        <br>
-        <br>
-        <br>
-        <span id="name-title" class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">
-			WELCOME
-            </span>
-    </div>
-</div>
-<!-- Container (About Section) -->
-<div class="w3-content w3-container w3-padding-64" id="about">
-    <h3 class="w3-center">ABOUT ME</h3>
-    <p class="w3-center">
-        <em>I love programming!</em>
-    </p>
-    <p id="descriptive-paragraph">Very ambitious, creative and quick-learning software engineer with leadership skills,
-        programming and architectural
-        skills. I have experience with ASP.NET MVC, NodeJS, PostgreSQL, SQL Server, MongoDB, HTML5, CSS3, Bootstrap,
-        JSON, XML and knowledge in application development with .NET platform and MEAN stack. Also understanding of
-        algorithmic
-        problems and data structures. Works with precision and a very good team player. Keen on keeping deadlines, has
-        all his projects completed on time.</p>
-    <div class="w3-row">
-        <div class="w3-col m6 w3-center w3-padding-large">
-            <p>
-                <b>
-                    <i class="fa fa-user w3-margin-right"></i>Yordan Ivanov Yordanov</b>
-            </p>
-            <br>
-            <img src="images/avatar.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me"
-                 width="500" height="333">
-        </div>
-        <!-- Hide this text on small devices -->
-        <div class="w3-col m6 w3-hide-small w3-padding-large">
-            <p>
-                <b>
-                    <i class="fa fa-at w3-margin-right"></i>Software Technologies</b>
-            </p>
-            <br>
-            <p>Web programming with ASP.NET stack - ASP.NET MVC 5 & ASP.NET Core, ASP.NET WebAPI, Razor, ASP.NET
-                WebForms,
-                SignalR, Nhibernate, Entity Framework, LINQ, ADO.NET, SQL Server, AutoMapper, Ninject;
-            <p>
-            <p>Microsoft Azure</p>
-            <p>Web programming with NodeJS - NodeJS, ExpressJS, MongoDB;</p>
-            <p>Web sites and client-side scripting – HTML5, CSS3, JavaScript, AJAX, jQuery, AngularJS, HandlebarsJS,
-                KnockoutJS;</p>
-            <p>Databases – PostgreSQL, MSSQL, MySQL, MongoDB;</p>
-            <p>Object-oriented programming and modeling (design patterns and SOLID);</p>
-            <br>
-            <p>
-                <b>Other Computer Skills</b>
-            </p>
-            <br>
-            <p>Source control systems – Git (GitHub), TFS, SVN;</p>
-            <p>Continuous Integration with Jenkins</p>
-            <p>Video and audio editing skills;</p>
-            <p>Excellent skills with Microsoft Word, Microsoft Excel and Microsoft PowerPoint; </p>
-        </div>
-    </div>
-</div>
+<!-- Body Start -->
 
-<body class="w3-light-grey">
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-    <!-- The Grid -->
-    <div class="w3-row-padding">
-        <!-- Left Column -->
-        <div class="w3-third">
-            <div class="w3-white w3-text-grey w3-card-4">
-                <div class="w3-container">
-                    <p class="w3-large">
-                        <b>
-                            <i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b>
-                    </p>
-                    <p>.NET Framework / .NET Core</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
-                    </div>
-                    <p>JavaScript Frameworks</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">
-                            <div class="w3-center w3-text-white">50%</div>
+<body class="dark-body" data-gr-c-s-loaded="true">
+    <!-- Loading -->
+    <div id="loading" style="display: none;">
+        <div class="load-circle"><span class="one"></span></div>
+    </div>
+    <!-- / -->
+
+
+
+    <!-- navigation -->
+    <nav class="pages-nav">
+        <div class="pages-nav__item"><a class="link link--page" href="#home">Home</a></div>
+        <div class="pages-nav__item"><a class="link link--page" href="#about">About Me</a></div>
+        <div class="pages-nav__item"><a class="link link--page" href="#resume">Resume</a></div>
+        <div class="pages-nav__item"><a class="link link--page" href="#portfolio">Accomplishments</a></div>
+    </nav>
+    <!-- /navigation-->
+
+    <div class="pages-stack">
+
+        <!-- Home Banner -->
+        <div class="page home-banner white-bg" id="home" style="z-index: 5; opacity: 1;">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters full-screen">
+                    <div class="col-lg-3 col-xl-4 blue-bg">
+                        <div class="d-flex align-items-end home-user-avtar v-center-box">
+                            <img src="static/img/user.png" title="" alt="">
                         </div>
                     </div>
-                    <p>HTML & CSS</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:45%">45%</div>
+                    <div class="col-lg-9 col-xl-8">
+                        <div class="page-scroll">
+                            <div class="page-content">
+                                <div class="v-center-box d-flex align-items-center">
+                                    <div class="home-text">
+                                        <h6 class="dark-color theme-after">Hello, There</h6>
+                                        <h1 class="dark-color blue-after">I'm Jordan Jordanov</h1>
+                                        <p><span id="type-it" data-typeitid="lbemqe3sanhh2esv7kxhzn">
+                        <span style="display:inline;position:relative;font:inherit;color:inherit;"
+                          class="ti-container">Developer</span>
+                                            <span style="display:inline;position:relative;font:inherit;color:inherit;" class="ti-cursor">|</span></span>
+                                        </p>
+                                        <div class="btn-bar">
+                                            <a href="#" class="btn btn-theme">Download CV</a>
+                                        </div>
+                                    </div>
+                                    <ul class="social-icons">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <p>SQL</p>
-                    <div class="w3-light-grey w3-round-xlarge w3-small">
-                        <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:60%">60%</div>
-                    </div>
-                    <br>
-                    <p class="w3-large w3-text-theme">
-                        <b>
-                            <i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b>
-                    </p>
-                    <p>Bulgarian</p>
-                    <div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-                    </div>
-                    <p>English</p>
-                    <div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:75%"></div>
-                    </div>
-                    <p>Russian</p>
-                    <div class="w3-light-grey w3-round-xlarge">
-                        <div class="w3-round-xlarge w3-teal" style="height:24px;width:25%"></div>
-                    </div>
-                    <br>
                 </div>
             </div>
-            <br>
-            <!-- End Left Column -->
         </div>
-        <!-- Right Column -->
-        <div class="w3-twothird">
-            <div class="w3-container w3-card w3-white w3-margin-bottom">
-                <h2 class="w3-text-grey w3-padding-16">
-                    <i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-                <div class="w3-container">
-                    <h5 class="w3-opacity">
-                        <b>Full Stack .NET Web Developer in</b>
-                    </h5>
-                    <img src="images/immedis-logo.png" alt="immedis-logo" width="200" height="100">
-                    <h6 class="w3-text-teal">
-                        <h6 class="w3-text-teal">
-                            <i class="fa fa-calendar fa-fw w3-margin-right"></i>NOV 2017 -
-                            <span class="w3-tag w3-teal w3-round">Current</span>
-                        </h6>
-                        <hr>
 
-                        <h5 class="w3-opacity">
-                            <b>Web Developer in </b>
-                        </h5>
-                        <img src="images/societe-generale-ekspresbank-logo.png" alt="societe-generale-ekspresbank-logo"
-                             width="200" height="50">
-                        <h6 class="w3-text-teal">
-                            <h6 class="w3-text-teal">
-                                <i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2017 - Sep 2017</h6>
-                            <hr>
-                        </h6>
-                </div>
-            </div>
-            <div class="w3-container w3-card w3-white">
-                <h2 class="w3-text-grey w3-padding-16">
-                    <i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-                <div class="w3-container">
-                    <img src="images/ue-logo.png" alt="UE-Logo" width="100" height="100">
-                    <h5 class="w3-opacity">
-                        <b>University of Economics - Varna</b>
-                    </h5>
-                    <h6 class="w3-text-teal">
-                        <i class="fa fa-calendar fa-fw w3-margin-right"></i>2014 - 2018</h6>
-                    <p>Bachelor Degree in Computer Science</p>
-                    <hr>
-                </div>
-                <div class="w3-container">
-                    <img src="images/softuni-logo.jpg" alt="SoftUni-Logo" width="100" height="100">
-                    <h5 class="w3-opacity">
-                        <b>Software University</b>
-                    </h5>
-                    <h6 class="w3-text-teal">
-                        <i class="fa fa-calendar fa-fw w3-margin-right"></i>2015 - 2019</h6>
-                    <p>JavaScript Developer</p>
-                    <br>
-                </div>
-            </div>
-            <!-- End Right Column -->
-        </div>
-        <!-- End Grid -->
-    </div>
-    <!-- End Page Container -->
-</div>
-</body>
-<div class="w3-row w3-center w3-dark-grey w3-padding-16">
-    <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">1000%</span>
-        <br>Team Player
-    </div>
-    <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">20+</span>
-        <br> Projects Done
-    </div>
-    <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">8+</span>
-        <br>IT Competitions
-    </div>
-    <div class="w3-quarter w3-section">
-        <span class="w3-xlarge">10+</span>
-        <br> Certificates
-    </div>
-</div>
-<!-- Second Parallax Image with Portfolio Text -->
-<div class="bgimg-2 w3-display-container w3-opacity-min">
-    <div class="w3-display-middle">
-        <span class="w3-xxlarge w3-text-white w3-wide">PORTFOLIO</span>
-    </div>
-</div>
-<!-- Container (Portfolio Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-    <h3 class="w3-center">MY WORK</h3>
-    <p class="w3-center">
-        <em>Here are some of my projects.
-            <br> Click on the images to make them bigger. Тhe technologies used are written down below.</em>
-    </p>
-    <br>
-    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-    <div class="w3-row-padding w3-center">
-        <div class="w3-col m3">
-            <img src="images/asp-net-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                 alt="Message Board (ASP.NET, WEB API, AngularJS, EF)">
-        </div>
-        <div class="w3-col m3">
-            <img src="images/win-forms-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                 alt="Admin For 'Aqua Hotel' (Windows Forms)">
-        </div>
-        <div class="w3-col m3">
-            <img src="images/node-js-1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                 alt="Computer Shop (NodeJS,MongoDB,HandlebarsJS) ">
-        </div>
-        <div class="w3-col m3">
-            <img src="images/mono-game.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                 alt="Monster World (MonoGame,C#,EF,MSSQL)">
-        </div>
-    </div>
-    <div class="w3-row-padding w3-center w3-section">
-        <div class="w3-col m3">
-            <img src="images/node-js-2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                 alt="Doner Place (NodeJS,MongoDB,HandlebarsJS)">
-        </div>
-        <div class="w3-col m3">
-            <img src="images/win-forms-2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                 alt="Storage program (Windows Forms)">
-        </div>
-        <div class="w3-col m3">
-            <img src="images/js-php-mysql.PNG" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                 alt="University Blog (PHP-MySQL-JavaScript for Front-End)">
-        </div>
-        <div class="w3-col m3">
-            <img src="images/custom-mvc.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity"
-                 alt="Game Store with custom web server & MVC (C#,MSSQL,Bootstrap 4)">
-        </div>
-        <button onclick="location.href='https://github.com/profjordanov?tab=repositories'"
-                class="w3-button w3-padding-large w3-light-grey"
-                style="margin-top:64px">Source Code
-        </button>
-    </div>
-</div>
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-        <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image">
-            <i class="fa fa-remove"></i>
-        </span>
-    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-        <img id="img01" class="w3-image">
-        <p id="caption" class="w3-opacity w3-large"></p>
-    </div>
-</div>
-<!-- Third Parallax Image with Portfolio Text -->
-<div class="bgimg-3 w3-display-container w3-opacity-min">
-    <div class="w3-display-middle">
-        <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
-    </div>
-</div>
-<!-- Container (Contact Section) -->
-<div class="w3-content w3-container w3-padding-64" id="contact">
-    <h3 class="w3-center">WHERE I WORK</h3>
-    <p class="w3-center">
-        <em>I'd love your feedback!</em>
-    </p>
-    <div class="w3-row w3-padding-32 w3-section">
-        <div class="w3-col m4 w3-container">
-            <!-- Add Google Maps -->
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93062.93306214365!2d27.872869151033672!3d43.204944866058234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a4538baaf3d7a1%3A0x5727941c71a58b7c!2z0JLQsNGA0L3QsA!5e0!3m2!1sbg!2sbg!4v1525096928166"
-                    frameborder="0" id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"
-                    allowfullscreen></iframe>
-        </div>
-        <div class="w3-col m8 w3-panel">
-            <div class="w3-large w3-margin-bottom">
-                <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Varna, Bulgaria
-                <br>
-                <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515
-                <br>
-                <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email:
-                <a href="mailto:jordanov.jordan@ue-varna.bg" target="_top">jordanov.jordan@ue-varna.bg</a>
-                <br>
-            </div>
-            <p>Swing by for a
-                <i class="fa fa-beer"></i> drink, or leave me a note:</p>
-            <div>
-                <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-                    <div class="w3-half">
-                        <input class="w3-input w3-border" type="text" id="fromName" placeholder="Name" required
-                               name="Name">
+        <!-- About -->
+        <div class="page about-section white-bg page--inactive" id="about" style="transform: translate3d(0px, 100%, 0px); z-index: 4; opacity: 0.9;">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-3 col-xl-4 page-title" style="background-image: url(static/img/title-1.jpg); ">
+                        <div class="v-center-box d-flex align-items-end">
+                            <h2>About Me</h2>
+                        </div>
                     </div>
-                    <div class="w3-half">
-                        <input class="w3-input w3-border" type="text" id="replyTo" placeholder="Email" required
-                               name="Email">
+                    <div class="col-lg-9 col-xl-8">
+                        <div class="page-scroll">
+                            <div class="page-content">
+
+                                <!-- Page Titel -->
+                                <div class="section-titel">
+                                    <h6 class="theme-after dark-color">WHO I AM</h6>
+                                    <div class="st-title">
+                                        <h2 class="theme-after dark-color">ABOUT</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img src="static/img/my-pic.jpg" title="" alt="">
+                                    </div>
+                                    <div class="col-md-8 md-m-30px-t">
+                                        <div class="about-text">
+                                            <h3 class="dark-color">My name is Jordan Jordanov</h3>
+                                            <p class="m-0px" style="text-align: justify;text-justify: inter-word;">
+                                                Very ambitious, creative and quick-learning software engineer with leadership, programming and architectural skills.
+                                                <br> Have experience and knowledge in application development with .NET platform, MEAN stack, HTML5, CSS3, PostgreSQL, Apache Cordova, Azure, GitLab, OpenShift and many more.
+                                                <br> Also understanding of algorithmic problems, data structures and design patterns. Works with precision and a very good team player. Keen on keeping deadlines!
+                                            </p>
+                                        </div>
+                                        <!-- about-text -->
+
+                                        <div class="row m-30px-t"></div>
+                                        <!-- row -->
+
+                                        <div class="btn-bar">
+                                            <a href="#" class="btn btn-theme">
+                                                <i class="ti-receipt"></i> Download CV
+                                            </a>
+                                            <a target="_blank" href="https://github.com/profjordanov" class="btn btn-theme">
+                                                <i class="ti-github"></i> GitHub
+                                            </a>
+                                            <a target="_blank" href="https://www.linkedin.com/in/jordan-jordanov-920186148/" class="btn btn-theme">
+                                                <i class="ti-linkedin"></i> LinkedIn
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- row -->
+
+                                <!-- Counter -->
+                                <div class="counter-row m-50px-t p-40px-t lg-m-35px-t lg-p-25px-t sm-p-15px-t">
+                                    <div class="row">
+                                        <div class="col-md-3 col-sm-6 md-m-15px-tb">
+                                            <div class="counter-col counter-box">
+                                                <div class="counter-data" data-count="1000">
+                                                    <i class="theme-color ti-face-smile"></i>
+                                                    <div class="count dark-color">1000%</div>
+                                                    <h6>Team Player</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- col -->
+
+                                        <div class="col-md-3 col-sm-6 md-m-15px-tb">
+                                            <div class="counter-col counter-box">
+                                                <div class="counter-data" data-count="30">
+                                                    <i class="theme-color ti-server"></i>
+                                                    <div class="count dark-color">30+</div>
+                                                    <h6>Projects Done</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- col -->
+
+                                        <div class="col-md-3 col-sm-6 md-m-15px-tb">
+                                            <div class="counter-col counter-box">
+                                                <div class="counter-data" data-count="10">
+                                                    <i class="theme-color ti-info-alt"></i>
+                                                    <div class="count dark-color">10+</div>
+                                                    <h6>IT Competitions</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- col -->
+
+                                        <div class="col-md-3 col-sm-6 md-m-15px-tb">
+                                            <div class="counter-col counter-box">
+                                                <div class="counter-data" data-count="15">
+                                                    <i class="theme-color ti-crown"></i>
+                                                    <div class="count dark-color">15+</div>
+                                                    <h6>Certificates</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- col -->
+
+                                    </div>
+                                    <!-- row -->
+                                </div>
+
+                            </div>
+                            <!-- page-content -->
+                        </div>
+                        <!-- page-scroll  -->
                     </div>
-
                 </div>
-                <input class="w3-input w3-border" type="text" id="messageHtml" placeholder="Message" required
-                       name="Message">
-                <div class="w3-half">
-                    <a href="./documents/YordanYordanovResume.pdf"
-                       class="w3-button w3-black w3-section">
-                        <i class="fa fa-file"></i> MY CV
-                    </a>
-                </div>
-                <button class="w3-button w3-black w3-right w3-section" id="submitMailBtn">
-                    <i class="fa fa-paper-plane"></i> SEND MESSAGE
-                </button>
-
+                <!-- row -->
             </div>
         </div>
-    </div>
-</div>
 
-<!-- The Modal -->
-<div id="myModal" class="modal">
+        <!-- RESUME -->
+        <div class="page resume-section white-bg page--inactive" id="resume" style="transform: translate3d(0px, 100%, 0px); z-index: 3; opacity: 0.8;">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-3 col-xl-4 page-title" style="background-image: url(static/img/title-2.jpg); ">
+                        <div class="v-center-box d-flex align-items-end">
+                            <h2>My Resume</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-xl-8">
+                        <div class="page-scroll">
+                            <div class="page-content">
+                                <div class="section-titel">
+                                    <h6 class="theme-after dark-color">History</h6>
+                                    <div class="st-title">
+                                        <h2 class="theme-after dark-color">My Resume</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="resume-row">
+                                            <h2 class="theme-after dark-color">Experience</h2>
+                                            <ul>
+                                                <li>
+                                                    <div class="r-name">
+                                                        <i class="theme-bg ti-briefcase"></i>
+                                                        <span class="dark-color">University of Economics - Varna</span>
+                                                        <label>MAR 2020 - </label>
+                                                    </div>
+                                                    <div class="r-info">
+                                                        <p>Assistant Professor for the "Hybrid Mobile App Development" course.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="r-name">
+                                                        <i class="theme-bg ti-briefcase"></i>
+                                                        <span class="dark-color">Global IT Center, HeidelbergCement Group</span>
+                                                        <label>AUG 2019 - </label>
+                                                    </div>
+                                                    <div class="r-info">
+                                                        <p>Backend .NET Developer for the digital products, which the company supplies to its customers.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="r-name">
+                                                        <i class="theme-bg ti-briefcase"></i>
+                                                        <span class="dark-color">Immedis</span>
+                                                        <label>NOV 2017 - JULY 2019</label>
+                                                    </div>
+                                                    <div class="r-info">
+                                                        <p>Full Stack .NET Developer for the Payroll Portal and Admin of the company.</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="r-name">
+                                                        <i class="theme-bg ti-briefcase"></i>
+                                                        <span class="dark-color">Societe Generale Expressbank</span>
+                                                        <label>MAR 2017 - SEP 2017</label>
+                                                    </div>
+                                                    <div class="r-info">
+                                                        <p>Intern Web Developer for a brand new startup, targeted for the HR department.</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- col -->
+                                    <div class="col-md-6">
+                                        <div class="resume-row">
+                                            <h2 class="theme-after dark-color">Education</h2>
+                                            <ul>
+                                                <li>
+                                                    <div class="r-name">
+                                                        <i class="theme-bg fas fa-graduation-cap"></i>
+                                                        <span class="dark-color">University of Economics - Varna</span>
+                                                        <label>2018 - 2019</label>
+                                                    </div>
+                                                    <div class="r-info">
+                                                        <p>Master's Degree in Computer Science</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="r-name">
+                                                        <i class="theme-bg fas fa-graduation-cap"></i>
+                                                        <span class="dark-color">Software University</span>
+                                                        <label>2015 - 2019</label>
+                                                    </div>
+                                                    <div class="r-info">
+                                                        <p>C# and JavaScript Web Development</p>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="r-name">
+                                                        <i class="theme-bg fas fa-graduation-cap"></i>
+                                                        <span class="dark-color">University of Economics - Varna</span>
+                                                        <label>2014 - 2018</label>
+                                                    </div>
+                                                    <div class="r-info">
+                                                        <p>Bachelor's Degree in Computer Science</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- col -->
+                                </div>
+                                <!-- row -->
 
-    <!-- Modal content -->
-    <div class="modal-content">
-        <div class="modal-header">
-            <span class="close">&times;</span>
-            <h5>Thank you! :)</h5>
+                                <div class="skill-row m-30px-t sm-m-20px-t">
+                                    <div class="sub-title m-30px-b">
+                                        <h2 class="dark-color theme-after">Coding Skills</h2>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-6 p-30px-r sm-p-15px-r">
+                                            <div class="skills">
+                                                <div class="progress-lt">
+                                                    <h6>.NET Core</h6>
+                                                    <span class="theme-bg">92%</span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 92%;">
+                                                        </div>
+                                                        <!-- /progress-bar -->
+                                                    </div>
+                                                    <!-- /progress -->
+                                                </div>
+                                                <!-- /progress-lt -->
+                                                <div class="progress-lt">
+                                                    <h6>Docker</h6>
+                                                    <span class="theme-bg">64%</span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 64%;">
+                                                        </div>
+                                                        <!-- /progress-bar -->
+                                                    </div>
+                                                    <!-- /progress -->
+                                                </div>
+                                                <!-- /progress-lt -->
+                                                <div class="progress-lt">
+                                                    <h6>SQL</h6>
+                                                    <span class="theme-bg">78%</span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 78%;">
+                                                        </div>
+                                                        <!-- /progress-bar -->
+                                                    </div>
+                                                    <!-- /progress -->
+                                                </div>
+                                                <!-- /progress-lt -->
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 p-30px-l sm-p-15px-l sm-m-30px-t">
+                                            <div class="skills">
+                                                <div class="progress-lt">
+                                                    <h6>HTML5</h6>
+                                                    <span class="theme-bg">78%</span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 78%;">
+                                                        </div>
+                                                        <!-- /progress-bar -->
+                                                    </div>
+                                                    <!-- /progress -->
+                                                </div>
+                                                <!-- /progress-lt -->
+                                                <div class="progress-lt">
+                                                    <h6>CSS3</h6>
+                                                    <span class="theme-bg">64%</span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 64%;">
+                                                        </div>
+                                                        <!-- /progress-bar -->
+                                                    </div>
+                                                    <!-- /progress -->
+                                                </div>
+                                                <!-- /progress-lt -->
+                                                <div class="progress-lt">
+                                                    <h6>JavaScript</h6>
+                                                    <span class="theme-bg">78%</span>
+                                                    <div class="progress">
+                                                        <div class="progress-bar" style="width: 78%;">
+                                                        </div>
+                                                        <!-- /progress-bar -->
+                                                    </div>
+                                                    <!-- /progress -->
+                                                </div>
+                                                <!-- /progress-lt -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <!-- page-content -->
+                        </div>
+                        <!-- page-scroll  -->
+                    </div>
+                </div>
+                <!-- row -->
+            </div>
         </div>
-        <div class="modal-body">
-            <p>Your message was sent successfully!</p>
-            <p>I will answer you as soon as possible!</p>
-        </div>
-        <div class="modal-footer">
+
+        <!-- Accomplishments -->
+        <div class="page white-bg page--inactive" id="portfolio" style="transform: translate3d(0px, 75%, -300px); z-index: 2; opacity: 0;">
+            <div class="container-fluid p-0">
+                <div class="row no-gutters">
+                    <div class="col-lg-3 col-xl-4 page-title" style="background-image: url(static/img/title-3.jpg); ">
+                        <div class="v-center-box d-flex align-items-end">
+                            <h2>My Accomplishments</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-9 col-xl-8">
+                        <div class="page-scroll">
+                            <div class="page-content">
+
+                                <!-- Page Titel -->
+                                <div class="section-titel">
+                                    <h6 class="theme-after dark-color">Latest</h6>
+                                    <div class="st-title">
+                                        <h2 class="theme-after dark-color">Awards</h2>
+                                    </div>
+                                </div>
+
+                                <!--  -->
+                                <div class="portfolio-section">
+                                    <!-- Portfolio Filter -->
+
+                                    <div class="portfolio-content" style="position: relative; height: 557.75px;">
+                                        <ul class="portfolio-cols portfolio-cols-3">
+                                            <li class="portfolio-item photoshop apps" style="position: absolute; left: 258px; top: 278px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-8.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-8.jpg" title="Softuniada 2020 Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>Softuniada 2020</h5>
+                                                        <span>Web Project Competition</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item website" style="position: absolute; left: 0px; top: 0px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-1.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-1.jpg" title="ASP.NET Core Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>ASP.NET Core</h5>
+                                                        <span>C# MVC Frameworks</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item website" style="position: absolute; left: 0px; top: 0px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-9.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-9.jpg" title="Employee of the Year Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>Spirit of Technology</h5>
+                                                        <span>Immedis</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item apps" style="position: absolute; left: 258px; top: 0px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-2.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-2.jpg" title="SQL Fundamentals Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>MS SQL Server</h5>
+                                                        <span>Databases Fundamentals</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item apps" style="position: absolute; left: 258px; top: 0px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-10.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-10.jpg" title="Hackathon Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>Innovation Camp</h5>
+                                                        <span>Societe Generale Expressbank</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item photoshop apps" style="position: absolute; left: 516px; top: 0px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-3.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-3.jpg" title="NodeJS Fundamentals Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>ExpressJS Fundamentals</h5>
+                                                        <span>NodeJS Fundamentals</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item photoshop apps" style="position: absolute; left: 516px; top: 0px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-11.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-11.jpg" title="Extracurricular Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>IT Master Class</h5>
+                                                        <span>University of Economics</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item photoshop website" style="position: absolute; left: 0px; top: 278px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-4.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-4.jpg" title="Software Technologies Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>Software Technologies</h5>
+                                                        <span>Programming Fundamentals</span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item photoshop apps" style="position: absolute; left: 258px; top: 278px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-5.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-5.jpg" title="Hackathon Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>Innovation Camp</h5>
+                                                        <span>Societe Generale Expressbank</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item app website" style="position: absolute; left: 516px; top: 278px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-6.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-6.jpg" title="Extracurricular Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>IT Master Class</h5>
+                                                        <span>University of Economics</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+                                            <li class="portfolio-item app website" style="position: absolute; left: 516px; top: 278px;">
+                                                <div class="portfolio-col portfolio-hover-01">
+                                                    <div class="portfolio-img">
+                                                        <a href="#">
+                                                            <img src="static/img/portfolio-12.jpg" title="" alt="">
+                                                        </a>
+                                                        <div class="hover">
+                                                            <div class="action-btn">
+                                                                <a class="lightbox-gallery theme-color" href="static/img/portfolio-12.jpg" title="Big Data Technologies Certificate">
+                                                                    <i class="fas fa-expand"></i>
+                                                                </a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="portfolio-info">
+                                                        <h5>Big Data Technologies</h5>
+                                                        <span>Adastra Academy</span>
+                                                    </div>
+                                                </div>
+                                                <!-- Portfolio -->
+                                            </li>
+                                            <!-- col -->
+
+
+                                        </ul>
+                                        <!-- row -->
+                                    </div>
+                                    <!-- portfolio content -->
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!-- page-content -->
+                    </div>
+                    <!-- page-scroll  -->
+                </div>
+            </div>
+            <!-- row -->
         </div>
     </div>
-
-</div>
-<!-- Footer -->
-<footer class="w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off">
-    <a href="#home" class="w3-button w3-light-grey">
-        <i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-    <p>Find me on social media.</p>
-    <div class="w3-xlarge w3-section">
-        <a href="https://www.facebook.com/dakatheboss" target="_blank">
-            <i class="fa fa-facebook-official w3-hover-opacity"></i>
-        </a>
-        <i class="fa fa-instagram w3-hover-opacity"></i>
-        <i class="fa fa-snapchat w3-hover-opacity"></i>
-        <i class="fa fa-pinterest-p w3-hover-opacity"></i>
-        <i class="fa fa-twitter w3-hover-opacity"></i>
-        <a href="https://www.linkedin.com/in/jordan-jordanov-920186148/" target="_blank">
-            <i class="fa fa-linkedin w3-hover-opacity"></i>
-        </a>
     </div>
-</footer>
-<!-- Scripts -->
-<script src="Scripts/page.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="Scripts/screen.width.controller.js"></script>
-<script src="Scripts/translate.js"></script>
-<script src="Scripts/modal.js"></script>
+
+    <!-- Header -->
+    <header class="header theme-bg">
+        <div class="logo">MENU</div>
+        <div class="menu-toggle">
+            <button class="menu-button"><span>Menu</span></button>
+        </div>
+    </header>
+
+    <!-- jQuery -->
+    <script src="static/js/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Plugins -->
+    <script src="static/plugin/bootstrap/js/popper.min.js"></script>
+    <script src="static/plugin/bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/plugin/owl-carousel/js/owl.carousel.min.js"></script>
+    <script src="static/plugin/typeit-master/typeit.min.js"></script>
+    <script src="static/plugin/isotope/isotope.pkgd.min.js"></script>
+    <script src="static/plugin/magnific/jquery.magnific-popup.min.js"></script>
+
+    <script src="static/plugin/nav/js/classie.js"></script>
+    <script src="static/plugin/nav/js/main.js"></script>
+
+
+
+    <!-- custom -->
+    <script src="static/js/custom.js"></script>
+
+
+    <!-- Body End -->
+
+
 </body>
 
 </html>
