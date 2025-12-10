@@ -676,6 +676,14 @@
             opacity: 1;
             transform: translateY(0);
         }
+        /* Ensure awards section images are always visible */
+        #awards-section {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        #awards-section img {
+            min-height: 50px;
+        }
         
         .typing-effect {
             overflow: hidden;
@@ -803,9 +811,15 @@
             border-radius: 16px;
             padding: 25px;
             margin-bottom: 25px;
+            overflow-x: hidden;
         }
         .glass-section p {
             color: var(--text-secondary);
+        }
+        #awards-section img {
+            width: 100%;
+            height: auto;
+            display: block;
         }
         
         /* Animated underline for links */
@@ -1299,7 +1313,7 @@
                 <section class="mb-4 fade-in-section glass-section">
                     <h4 class="section-title"><i class="bi bi-chat-quote me-2"></i><span data-i18n="myMotto">My Motto</span></h4>
                     <div class="text-center">
-                        <img src="./static/img/Logo-2.jpg" alt="My Motto" class="img-fluid rounded mb-3" loading="lazy" style="max-width: 400px;">
+                        <img src="./static/img/Logo-2.jpg" alt="My Motto" class="img-fluid rounded mb-3" loading="lazy" style="max-width: 100%; width: 400px;">
                         <blockquote class="blockquote">
                             <p class="mb-0" style="font-style: italic; font-size: 1.25rem;" data-i18n="mottoQuote">"Happiness is the highest form of health"</p>
                             <footer class="blockquote-footer mt-2" data-i18n="mottoAuthor">Dalai Lama</footer>
@@ -1333,74 +1347,74 @@
                     </div>
                 </section>
 
-                <section class="mb-4 fade-in-section glass-section">
+                <section class="mb-4 fade-in-section glass-section" id="awards-section">
                     <h4 class="section-title"><i class="bi bi-award me-2"></i><span data-i18n="awards">Awards and Certificates</span></h4>
                     <div class="row g-3">
-                        <div class="col-md-4">
-                            <img src="./static/img/1765357972450-db845b46-bdf5-4741-b54a-efc72a64040a_1.jpg" alt="Award 1" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/1765357972450-db845b46-bdf5-4741-b54a-efc72a64040a_1.jpg" alt="Award 1" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/diploma_pages-to-jpg-0001.jpg" alt="Award 2" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/diploma_pages-to-jpg-0001.jpg" alt="Award 2" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/FB_IMG_1765356776228.jpg" alt="Award 3" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/FB_IMG_1765356776228.jpg" alt="Award 3" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/FB_IMG_1765356781038.jpg" alt="Award 4" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/FB_IMG_1765356781038.jpg" alt="Award 4" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/FB_IMG_1765356804029.jpg" alt="Award 5" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/FB_IMG_1765356804029.jpg" alt="Award 5" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/FB_IMG_1765356808385.jpg" alt="Award 6" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/FB_IMG_1765356808385.jpg" alt="Award 6" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/FB_IMG_1765356817612.jpg" alt="Award 7" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/FB_IMG_1765356817612.jpg" alt="Award 7" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-1.jpg" alt="Award 10" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-1.jpg" alt="Award 10" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-10.jpg" alt="Award 11" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-10.jpg" alt="Award 11" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-11.jpg" alt="Award 12" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-11.jpg" alt="Award 12" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-12.jpg" alt="Award 13" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-12.jpg" alt="Award 13" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-2.jpg" alt="Award 14" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-2.jpg" alt="Award 14" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-3.jpg" alt="Award 15" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-3.jpg" alt="Award 15" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-4.jpg" alt="Award 16" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-4.jpg" alt="Award 16" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-5.jpg" alt="Award 17" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-5.jpg" alt="Award 17" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-6.jpg" alt="Award 18" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-6.jpg" alt="Award 18" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-8.jpg" alt="Award 19" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-8.jpg" alt="Award 19" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/portfolio-9.jpg" alt="Award 20" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/portfolio-9.jpg" alt="Award 20" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/Scan_2025-11-19_08-05-49-770_page-0001.jpg" alt="Award 21" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/Scan_2025-11-19_08-05-49-770_page-0001.jpg" alt="Award 21" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/title-1.jpg" alt="Award 22" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/title-1.jpg" alt="Award 22" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/title-2.jpg" alt="Award 23" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/title-2.jpg" alt="Award 23" class="img-fluid rounded w-100">
                         </div>
-                        <div class="col-md-4">
-                            <img src="./static/img/title-3.jpg" alt="Award 24" class="img-fluid rounded" loading="lazy">
+                        <div class="col-md-4 col-6">
+                            <img src="./static/img/title-3.jpg" alt="Award 24" class="img-fluid rounded w-100">
                         </div>
                     </div>
                 </section>
