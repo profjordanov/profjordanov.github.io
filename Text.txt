@@ -1,0 +1,18 @@
+servr: azure cosmos, Azure Event Hubs
+SignalR
+
+
+cloud:
+
+Gradle
+kaniko
+Appveyor
+CircleCI
+GitHub Actions
+TeamCity
+Travis CI
+Azure Monitor
+Azure Service Fabric
+
+Azure Registry
+Key Vault
