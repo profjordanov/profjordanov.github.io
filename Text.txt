@@ -1,11 +1,13 @@
-servr: azure cosmos, Azure Event Hubs
+servr & Db : azure cosmos, Azure Event Hubs
 SignalR
+ngnix (move up)
 
+containers: Azure Registry., docker , Kubernetes,  kaniko, .NET Aspire
 
 cloud:
 
 Gradle
-kaniko
+
 Appveyor
 CircleCI
 GitHub Actions
@@ -14,5 +16,4 @@ Travis CI
 Azure Monitor
 Azure Service Fabric
 
-Azure Registry
 Key Vault
