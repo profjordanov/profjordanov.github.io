@@ -2,7 +2,7 @@ client + Blazor
 
 servr & Db : azure cosmos, Azure Event Hubs
 SignalR
-ngnix (move up)
+ngnix (move up) IIS
 
 containers: Azure Registry., docker , Kubernetes,  kaniko, .NET Aspire
 
